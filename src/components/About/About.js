@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
@@ -60,7 +59,6 @@ function About() {
           <Toolstack data-aos="fade-up" />
         </div>
 
-        <Github />
       </Container>
       <ScrollToTop />
     </Container>

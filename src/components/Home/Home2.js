@@ -1,11 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/Avatar.png";
+import Me from "../../Assets/Me.png";
 import Tilt from "react-parallax-tilt";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillGitlab,
   AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -50,7 +48,7 @@ function Home2() {
             <Tilt>
               <img
                 data-aos="fade-left"
-                src={myImg}
+                src={Me}
                 className="img-fluid"
                 alt="avatar"
               />
@@ -66,29 +64,18 @@ function Home2() {
             <ul className="home-about-social-links" data-aos="fade-up">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Rahuljha4171"
+                  href="https://gitlab.com/KamronP23"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
-                  aria-label="github"
+                  aria-label="gitlab"
                 >
-                  <AiFillGithub />
+                  <AiFillGitlab />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Rahuljha4171"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                  aria-label="twitter"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="mailto:rahuljha4171@outlook.com"
+                  href="mailto:kamronpoosti@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -99,24 +86,13 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/Rahuljha4171/"
+                  href="https://www.linkedin.com/in/kamronpoosti"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                   aria-label="linkedin"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/dead.programmer/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                  aria-label="instagram"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>
