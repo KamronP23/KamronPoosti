@@ -1,9 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillGitlab,
   AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -17,7 +15,7 @@ function Footer() {
         <Col md="4" className="footer-copywright">
           <span>
             Designed and Developed by{" "}
-            <i className="primary-header">Rahul Jha</i>
+            <i className="primary-header">Kamron Poosti</i>
           </span>
         </Col>
         <Col md="4" className="footer-body">
@@ -25,32 +23,20 @@ function Footer() {
             <li className="social-icons">
               <a
                 style={{ color: `var(--clr-primary)` }}
-                className="github"
-                href="https://github.com/Rahuljha4171"
+                href="https://gitlab.com/KamronP23"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="github"
+                className="gitLab"
+                aria-label="gitlab"
               >
-                <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                style={{ color: `var(--clr-primary)` }}
-                className="twitter"
-                href="https://twitter.com/Rahuljha4171"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="twitter"
-              >
-                <AiOutlineTwitter />
+                <AiFillGitlab />
               </a>
             </li>
             <li className="social-icons">
               <a
                 style={{ color: `var(--clr-primary)` }}
                 className="email"
-                href="mailto:rahuljha4171@gmail.com"
+                href="mailto:kamronpoosti@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="email"
@@ -62,24 +48,12 @@ function Footer() {
               <a
                 style={{ color: `var(--clr-primary)` }}
                 className="linkedin"
-                href="https://www.linkedin.com/in/Rahuljha4171/"
+                href="https://www.linkedin.com/in/kamronpoosti"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="linkedin"
               >
                 <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                style={{ color: `var(--clr-primary)` }}
-                className="instagram"
-                href="https://www.instagram.com/dead.programmer/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="instagram"
-              >
-                <AiFillInstagram />
               </a>
             </li>
           </ul>
