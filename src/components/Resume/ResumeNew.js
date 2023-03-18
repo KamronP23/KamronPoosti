@@ -33,7 +33,7 @@ function ResumeNew() {
       <Container fluid className="resume-section">
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <button onClick={onButtonClick} style={{ maxWidth: "250px" }}>
-            DownloadPDF
+            Download PDF
           </button>
         </Row>
 
@@ -45,7 +45,7 @@ function ResumeNew() {
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
         <button onClick={onButtonClick} style={{ maxWidth: "250px" }}>
-            DownloadPDF
+            Download PDF
           </button>
         </Row>
       </Container>
