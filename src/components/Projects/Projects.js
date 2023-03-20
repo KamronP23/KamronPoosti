@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 import ProjectCard from "./ProjectCards";
-
-import PrivateChat from "../../Assets/Projects/PrivateChat.png";
+import TherapyHub from "../../Assets/Projects/TherapyHub.png";
+import CarCar from "../../Assets/Projects/CarCar.png";
+import Wardrobify from "../../Assets/Projects/Wardrobify.png";
+import Scrumptious from "../../Assets/Projects/Scrumptious.png";
 import Portfolio from "../../Assets/Projects/Portfolio.png";
-import Ecart from "../../Assets/Projects/ecart.png";
-import ExpenseTracker from "../../Assets/Projects/ExpenseTracker.png";
-
+import ConferenceGo from "../../Assets/Projects/ConferenceGo.png";
 import "./project.css";
 
 function Projects() {
@@ -19,42 +19,71 @@ function Projects() {
         </h1>
         <p>Here are a few projects I've worked on recently.</p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={6} lg={4} className="project-card">
+        <Col md={6} lg={4} className="project-card">
             <ProjectCard
-              imgPath={Ecart}
-              title="E Cart"
-              description="This is a fully functional eCommerce website that uses React.js + MUI and CSS in the front end and NodeJs and express js in backend and MongoDb as Database."
-              ghLink="https://github.com/rahuljha4171/E-cart"
-              demoLink="https://ecart.onrender.com/"
+              imgPath={TherapyHub}
+              title="TherapyHub"
+              description="A Full-Stack directory web application using FastAPI, React,
+              Python and Docker, where therapists can sign up to be listed on the directory,
+              users can make accounts to search through the directory to locate therapists
+              in their area, further filter with specialties and payment methods, and add
+              the therapists to a wishlist to save the therapist's information."
+              ghLink="https://gitlab.com/team-swank/therapy-hub"
+              demoLink="https://team-swank.gitlab.io/therapy-hub/"
             />
           </Col>
-
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={Portfolio}
-              title="Portfolio Website"
-              description="My personal Portfolio Website build with React and Bootstrap. It is fully responsive website which supports both dark and light mode."
-              ghLink="https://github.com/rahuljha4171/Portfolio-Website"
-              demoLink="https://rahuljha.tech/"
-            />
-          </Col>
-          <Col md={6} lg={4} className="project-card">
-            <ProjectCard
-              imgPath={PrivateChat}
-              title="Private Chat"
-              description="A Personal Chat Application to share resources and hangout with friends build with react.js, css, and Firebase. Have features which allows user for realtime messaging, image sharing and search user."
-              ghLink="#"
-              demoLink="https://chat-app-rahuljha4171.vercel.app/"
+              title="Portfolio Site"
+              description="A fully responsive Front-End portfolio site with built in light
+              & dark mode utilizing React & Bootstrap."
+              ghLink="https://github.com/KamronP23/KamronPoosti"
+              demoLink="https://team-swank.gitlab.io/therapy-hub/"
             />
           </Col>
 
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
-              imgPath={ExpenseTracker}
-              title="Expense Tracker"
-              description="An online expense tracker using React, Node, Express, and MongoDB as the database. It allows you to keep track of your expenses, investments, and savings. All past transactions are listed, and you can also delete them. "
-              ghLink="https://github.com/rahuljha4171/Expense-Tracker"
-              demoLink="https://expense-tracker.rahuljha4171.vercel.app/"
+              imgPath={CarCar}
+              title="Dealership Website"
+              description="A Full-Stack web application using Python, React, Django,
+              Docker & Microservices to provide an auto dealership with vehicle data, sales,
+              service appointments and tracking history of sales and service appointments."
+              ghLink="https://gitlab.com/ToddCompton/project-beta/-/tree/kamron-branch"
+            />
+          </Col>
+          <Col md={6} lg={4} className="project-card">
+            <ProjectCard
+              imgPath={Wardrobify}
+              title="Wardrobify"
+              description="A Full-Stack web application to organize a users closer
+              by aling inputing hat and shoe information, create bins, closets,
+              update items and delete items utilizing Microservices, Python,
+              Django, Docker & React."
+              ghLink="https://gitlab.com/ToddCompton/microservice-two-shot"
+            />
+          </Col>
+          <Col md={6} lg={4} className="project-card">
+            <ProjectCard
+              imgPath={ConferenceGo}
+              title="ConferenceGo"
+              description="A Full-Stack web application to provide information
+              regarding upcoming conferences, with the ability to create new
+              conferences, create a user, register to attend conferences as
+              well as the ability to create and register presentations. Built
+              using Python, Django, Docker, React & Microservices"
+              ghLink="https://gitlab.com/ToddCompton/microservice-two-shot"
+            />
+          </Col>
+          <Col md={6} lg={4} className="project-card">
+            <ProjectCard
+              imgPath={Scrumptious}
+              title="Scrumptious"
+              description="A Full-Stack web recipe book application with user
+              authentication, database integration, responsive design and form
+              handling utilizing Django, HTML & CSS."
+              ghLink="https://gitlab.com/KamronP23/scrumptious"
             />
           </Col>
         </Row>

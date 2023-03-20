@@ -3,11 +3,10 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiIos,
   SiVisualstudiocode,
-  SiPostman,
   SiRabbitmq,
   SiGithub,
-  SiGitlab
 } from "react-icons/si";
+import { AiFillGitlab } from "react-icons/ai";
 
 function Toolstack() {
   return (
@@ -25,7 +24,7 @@ function Toolstack() {
         <p style={{fontSize:"25px"}}>RabbitMQ</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGitlab />
+        <AiFillGitlab />
         <p style={{fontSize:"25px"}}>GitLab</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
