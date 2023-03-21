@@ -6,21 +6,19 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "./resume.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-
-const resumeLink =
-  "https://kamronresume.s3.us-west-1.amazonaws.com/Kamron_Poosti_Resume.pdf";
-
 const onButtonClick = () => {
-  fetch(resumeLink).then(response => {
-    response.blob().then(blob => {
-      const fileURL = URL.createObjectURL(blob);
-      let a = document.createElement('a');
-      a.href = fileURL;
-      a.download = "KamronPoostiResume.pdf";
-      a.click();
-    })
+  fetch('KamronPoostiResume.pdf').then(response => {
+      response.blob().then(blob => {
+          const fileURL = window.URL.createObjectURL(blob);
+          let alink = document.createElement('a');
+          alink.href = fileURL;
+          alink.download = 'KamronPoostiResume.pdf';
+          alink.click();
+      })
   })
 }
+const resumeLink =
+  "KamronPoostiResume.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -35,7 +33,7 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
+        <Button
             onClick={onButtonClick}
             variant="primary"
             target="_blank"
@@ -46,16 +44,13 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <Document
-            file={resumeLink}
-            className="d-flex justify-content-center"
-          >
+          <Document file={pdfUrl} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
+        <Button
             onClick={onButtonClick}
             variant="primary"
             target="_blank"
