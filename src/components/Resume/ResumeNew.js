@@ -7,18 +7,18 @@ import "./resume.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const onButtonClick = () => {
-  fetch('KamronPoostiResume.pdf').then(response => {
+  fetch('https://kamronresume.s3.us-west-1.amazonaws.com/Kamron_Poosti_Resume.pdf').then(response => {
       response.blob().then(blob => {
           const fileURL = window.URL.createObjectURL(blob);
           let alink = document.createElement('a');
           alink.href = fileURL;
-          alink.download = 'KamronPoostiResume.pdf';
+          alink.download = 'https://kamronresume.s3.us-west-1.amazonaws.com/Kamron_Poosti_Resume.pdf';
           alink.click();
       })
   })
 }
 const resumeLink =
-  "KamronPoostiResume.pdf";
+  "https://kamronresume.s3.us-west-1.amazonaws.com/Kamron_Poosti_Resume.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
