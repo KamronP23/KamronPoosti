@@ -8,10 +8,10 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0" data-aos="zoom-in">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="primary-header">Kamron Poosti</span> from Los Angeles, California. I am a software engineer.
+            Hi, my name's <span className="primary-header">Kamron Poosti</span>. I'm a software engineer based in Los Angeles, California.
             <br />
             <br />
-            In addition to programming, here are some other things I enjoy doing!
+            In addition to programming, I enjoy:
           </p>
           <ul>
             <li className="about-activity">

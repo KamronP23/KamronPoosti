@@ -21,8 +21,8 @@ function Home2() {
               As a software engineer, I am fueled by my passion for problem-solving and the opportunity
               to positively impact the world through technology. Prior to entering this field, I spent
               several years as a Licensed Marriage and Family Therapist, where I refined my critical
-              thinking and communication skills. This experience instilled in me a deep commitment
-              to helping and supporting others.
+              thinking and communication skills. This experience instilled a commitment to helping and
+              supporting others.
             </p>
             <p>
               I thrive as a collaborative team player and excel in finding creative solutions to complex
