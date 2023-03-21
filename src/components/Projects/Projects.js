@@ -27,7 +27,7 @@ function Projects() {
               Python and Docker, where therapists can sign up to be listed on the directory,
               users can make accounts to search through the directory to locate therapists
               in their area, further filter with specialties and payment methods, and add
-              the therapists to a wishlist to save the therapist's information."
+              the therapists to a wishlist to save the therapist's information. Deployed via Caprover"
               ghLink="https://gitlab.com/team-swank/therapy-hub"
               demoLink="https://team-swank.gitlab.io/therapy-hub/"
             />
@@ -37,7 +37,7 @@ function Projects() {
               imgPath={Portfolio}
               title="Portfolio Site"
               description="A fully responsive Front-End portfolio site with built in light
-              & dark mode utilizing React & Bootstrap."
+              & dark mode utilizing React & Bootstrap. Deployed via AWS."
               ghLink="https://github.com/KamronP23/KamronPoosti"
               demoLink="https://team-swank.gitlab.io/therapy-hub/"
             />
