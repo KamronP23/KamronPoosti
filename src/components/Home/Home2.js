@@ -18,30 +18,23 @@ function Home2() {
               <span className="primary-header"> ABOUT </span> ME
             </h1>
             <p>
-              As a software engineer, I am driven by the opportunity to develop solutions
-              that can positively impact individuals and communities. My career objective
-              has always been to effect change in the lives of others, and I am convinced
-              that the tech industry provides the perfect platform to realize this ambition.</p>
+              As a software engineer, I am fueled by my passion for problem-solving and the opportunity
+              to positively impact the world through technology. Prior to entering this field, I spent
+              several years as a Licensed Marriage and Family Therapist, where I refined my critical
+              thinking and communication skills. This experience instilled in me a deep commitment
+              to helping and supporting others.
+            </p>
             <p>
-              Having recently completed the 19-week Hack Reactor bootcamp, I have acquired a
-              wealth of knowledge and hands-on experience that has yielded tangible results
-              in my coding projects. My programming skills are characterized by efficiency,
-              autonomy, and an unwavering work ethic. I am also a perceptive problem-solver,
-              with the ability to engage clients effectively and deliver projects in a timely manner.
+              I thrive as a collaborative team player and excel in finding creative solutions to complex
+              problems. My passion for continuous learning and problem-solving has been instrumental in
+              my success as a software engineer.
             ​<br />
             </p>
             <p>
-            My experience as a licensed marriage and family therapist has equipped me with invaluable
-            skills in time management and innovative thinking that are fundamental to the success of a
-            software engineer. As I pursue my next role, I am eager to continue learning, develop new
-            leadership skills, and collaborate effectively with others to streamline processes
-            and optimize outcomes.
+              Moving forward in my career, I am eager to leverage my skills and experiences to make
+              meaningful contributions to the field, with a particular focus on improving access to
+              digital resources for all.
             ​<br />
-            </p>
-            <p>
-            My ultimate goal as a software engineer is to develop innovative solutions that positively
-            impact the lives of others. I am enthusiastic about embracing new challenges and contributing
-            my skills and expertise towards making a meaningful difference in the world.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

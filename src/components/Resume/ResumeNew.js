@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import { Document, Page, pdfjs } from "react-pdf";
+import Button from "react-bootstrap/Button";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "./resume.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
@@ -32,9 +33,14 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <button onClick={onButtonClick} style={{ maxWidth: "250px" }}>
+        <Button
+            onClick={onButtonClick}
+            variant="primary"
+            target="_blank"
+            style={{ maxWidth: "150px" }}
+          >
             Download PDF
-          </button>
+          </Button>
         </Row>
 
         <Row className="resume">
@@ -44,9 +50,14 @@ function ResumeNew() {
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
-        <button onClick={onButtonClick} style={{ maxWidth: "250px" }}>
+        <Button
+            onClick={onButtonClick}
+            variant="primary"
+            target="_blank"
+            style={{ maxWidth: "150px" }}
+          >
             Download PDF
-          </button>
+          </Button>
         </Row>
       </Container>
     </div>
