@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import laptopImg from "../../Assets/about1.png";
 import Toolstack from "./Toolstack";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 
