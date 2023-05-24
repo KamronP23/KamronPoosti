@@ -2,7 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
-import { AiFillGitlab } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 
 function ProjectCards(props) {
   return (
@@ -14,8 +14,8 @@ function ProjectCards(props) {
           {props.description}
         </Card.Text>
         <Button variant="primary" href={props.ghLink} target="_blank">
-          <AiFillGitlab /> &nbsp;
-          GitLab
+          <AiFillGithub /> &nbsp;
+          GitHub
         </Button>
         {"\n"}
         {"\n"}

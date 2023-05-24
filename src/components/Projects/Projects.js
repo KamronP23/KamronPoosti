@@ -28,7 +28,7 @@ function Projects() {
               users can make accounts to search through the directory to locate therapists
               in their area, further filter with specialties and payment methods, and add
               the therapists to a wishlist to save the therapist's information. Deployed via Caprover"
-              ghLink="https://gitlab.com/team-swank/therapy-hub"
+              ghLink="https://github.com/KamronP23/therapy-hub-fork"
               demoLink="https://team-swank.gitlab.io/therapy-hub/"
             />
           </Col>
@@ -50,7 +50,7 @@ function Projects() {
               description="A Full-Stack web application using Python, React, Django,
               Docker & Microservices to provide an auto dealership with vehicle data, sales,
               service appointments and tracking history of sales and service appointments."
-              ghLink="https://gitlab.com/ToddCompton/project-beta/-/tree/kamron-branch"
+              ghLink="https://github.com/KamronP23/project-beta/tree/kamron-branch"
             />
           </Col>
           <Col md={6} lg={4} className="project-card">
@@ -61,7 +61,7 @@ function Projects() {
               by aling inputing hat and shoe information, create bins, closets,
               update items and delete items utilizing Microservices, Python,
               Django, Docker & React."
-              ghLink="https://gitlab.com/ToddCompton/microservice-two-shot"
+              ghLink="https://github.com/KamronP23/microservice-two-shot"
             />
           </Col>
           <Col md={6} lg={4} className="project-card">
@@ -73,7 +73,7 @@ function Projects() {
               conferences, create a user, register to attend conferences as
               well as the ability to create and register presentations. Built
               using Python, Django, Docker, React & Microservices"
-              ghLink="https://gitlab.com/ToddCompton/microservice-two-shot"
+              ghLink="https://github.com/KamronP23/Fearless-Front-end"
             />
           </Col>
           <Col md={6} lg={4} className="project-card">
@@ -83,7 +83,7 @@ function Projects() {
               description="A Full-Stack web recipe book application with user
               authentication, database integration, responsive design and form
               handling utilizing Django, HTML & CSS."
-              ghLink="https://gitlab.com/KamronP23/scrumptious"
+              ghLink="https://github.com/KamronP23/Scrumptious"
             />
           </Col>
         </Row>
