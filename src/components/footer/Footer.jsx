@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
-  AiFillGitlab,
+  AiFillGithub,
   AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -23,13 +23,13 @@ function Footer() {
             <li className="social-icons">
               <a
                 style={{ color: `var(--clr-primary)` }}
-                href="https://gitlab.com/KamronP23"
+                href="https://github.com/KamronP23"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="gitLab"
-                aria-label="gitlab"
+                className="gitHub"
+                aria-label="github"
               >
-                <AiFillGitlab />
+                <AiFillGithub />
               </a>
             </li>
             <li className="social-icons">

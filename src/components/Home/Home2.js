@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Me from "../../Assets/Me.png";
 import Tilt from "react-parallax-tilt";
 import {
-  AiFillGitlab,
+  AiFillGithub,
   AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -57,13 +57,13 @@ function Home2() {
             <ul className="home-about-social-links" data-aos="fade-up">
               <li className="social-icons">
                 <a
-                  href="https://gitlab.com/KamronP23"
+                  href="https://github.com/KamronP23"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
-                  aria-label="gitlab"
+                  aria-label="github"
                 >
-                  <AiFillGitlab />
+                  <AiFillGithub />
                 </a>
               </li>
               <li className="social-icons">
