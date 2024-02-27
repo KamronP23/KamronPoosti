@@ -8,6 +8,7 @@ import Wardrobify from "../../Assets/Projects/Wardrobify.png";
 import Scrumptious from "../../Assets/Projects/Scrumptious.png";
 import Portfolio from "../../Assets/Projects/Portfolio.png";
 import ConferenceGo from "../../Assets/Projects/ConferenceGo.png";
+import LaComTravel from "../../Assets/Projects/LaComTravel.png";
 import "./project.css";
 
 function Projects() {
@@ -19,7 +20,19 @@ function Projects() {
         </h1>
         <p>Here are a few projects I've worked on recently.</p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={6} lg={4} className="project-card">
+          <Col md={6} lg={4} className="project-card">
+            <ProjectCard
+              imgPath={LaComTravel}
+              title="La Commercial Travel"
+              description={`La Commercial Travel: A dynamic full-stack web application developed with FastAPI, React, Python, JavaScript, and Docker.
+              Tailored for a local travel agency, the site showcases upcoming group events, including cruises and European tours, with a focus on the Persian community.
+              Offering CRUD functionality, responsive design, JWT token authentication, and attracting hundreds of monthly visitors.
+              Successfully deployed on a Digital Ocean Droplet.`}
+              ghLink="https://github.com/KamronP23"
+              demoLink="https://lacommercialtravel.com/"
+            />
+          </Col>
+          <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={TherapyHub}
               title="TherapyHub"
